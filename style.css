@@ -1,0 +1,27 @@
+body { display: flex; height: 100vh;}
+#calculator { 
+margin:auto;  
+padding: 30px;
+background-color: cyan;
+
+}
+#display, button {
+width: 100px;
+padding: 10px;
+margin: 10px;
+border: 1px solid gray;
+border-radius: 5px;
+box-shadow: 2px 2px gray;
+font: bold 3em Impact; 
+
+}
+#display {
+width: 455px;
+
+}
+.btn-brown{ 
+background-color: rgb(230, 65, 87); 
+} 
+.btn-yellow{ 
+background-color: rgb(255, 219, 17); 
+} 
