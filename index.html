@@ -2,36 +2,9 @@
 <html>
  <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href= "style.css">>
     <title>My Calculator</title>
-    <style>
-        body { display: flex; height: 100vh;}
-        #calculator { 
-             margin:auto;  
-            padding: 30px;
-            background-color: cyan;
-            
-        }
-        #display, button {
-            width: 100px;
-            padding: 10px;
-            margin: 10px;
-            border: 1px solid gray;
-            border-radius: 5px;
-            box-shadow: 2px 2px gray;
-             font: bold 3em Impact; 
-            
-        }
-        #display {
-            width: 455px;
-        
-        }
-         .btn-brown{ 
- background-color: rgb(230, 65, 87); 
-         } 
-         .btn-yellow{ 
-             background-color: rgb(255, 219, 17); 
-         } 
-    </style>
+
 </head>
 <body>
     <div id="calculator">
@@ -63,18 +36,5 @@
             <button onclick="press('/')">/</button>
         </div>
     </div>
-    
-    <script>
-        let display = document.getElementById("display");
-    
-        function clear1() {
-            display.value = "";
-        }
-        function calc() {
-            display.value = eval(display.value);
-        }
-        function press(x) {
-            display.value += x;
-        }
-    </script>
+    <script src="tec.js"></script>
 </body>
